@@ -1,0 +1,159 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .navbar-nav .caret {
+    display: none;
+  }
+  .navbar-nav .open ul {
+    display: none;
+	}
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background: none;
+  }
+  .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus,
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #969696;
+    background: none;
+  }
+  .navbar-default .navbar-nav > .hovernav > a {
+		color: #555;
+	}
+  .navbar-inverse .navbar-nav > .hovernav > a {
+		color: #969696;
+	}
+  .navbar-default .navbar-nav > .hovernav:hover > a,
+  .navbar-default .navbar-nav > .hovernav:hover > a:hover,
+  .navbar-default .navbar-nav > .hovernav:hover > a:focus {
+    color: #333;
+    background: transparent;
+  }
+  .navbar-inverse .navbar-nav > .hovernav:hover > a,
+  .navbar-inverse .navbar-nav > .hovernav:hover > a:hover,
+  .navbar-inverse .navbar-nav > .hovernav:hover > a:focus {
+    color: #fff;
+    background: transparent;
+  }
+	.navbar-default .navbar-nav > li:hover {
+    background: #e7e7e7;
+  }
+  .navbar-inverse .navbar-nav > li:hover {
+    background: #080808;
+  }
+  .navbar-nav .hovernav:hover > .dropdown-menu {
+    display: block;
+	}
+}
+/*Source: http://simonpadbury.com/bootstrap-3-navbar-dropdown-hover/*/
+
+#nav-bar
+{
+	width:100%;
+}
+#nav-in
+{
+	position:relative;
+	top:15px;
+	float:right;
+  margin-right: -3%;
+}
+
+#carou
+{
+	width:90%;
+  height:50%;
+	position:fixed;
+	margin-top:3%;
+	left:5%;
+	float:left;
+}
+
+#signin
+{
+	width:20%;
+	float:right;
+	position:relative;
+	margin-top:6%;
+	margin-right: 4%;
+}
+
+
+.link-pic:link,.link-pic:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+width:297px;
+height:200px;
+float:left;
+text-align:center;
+position:relative;
+top:50px;
+margin-top: 1%;
+margin-right:10px;
+padding:4px;
+text-decoration:none;
+}
+.link-pic:hover,.link-pic:active
+{
+opacity:0.8;
+}
+
+#ics
+{
+background-image:url('../img/ics.jpg');
+background-repeat:no-repeat;
+height: 170%;
+}
+
+#uplb
+{
+background-image:url('../img/uplb.jpg');
+background-repeat:no-repeat;
+height: 170%;
+}
+
+#add
+{
+background-image:url('../img/6.jpg');
+height: 170%;
+}
+
+.link-gr
+{
+position:fixed;
+height: 20%;
+margin-top: 22%;
+margin-left: 5%;
+float:left;
+}
+
+#announ
+{
+	position:relative;
+  margin-top: 120%;
+
+
+}
+
+#table_search{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.pagination_table{
+  margin-left:30%;
+}
