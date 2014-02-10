@@ -322,7 +322,14 @@ width:70em;
 
 }
 /*end of right*/
+#about_us{
+  width: 30em;
+  margin-left: 8em;
+  margin-top: 3em;
+  font-size: 2em;
+  text-align: justify;
 
+}
 #table_search{
   margin-left: 5em;
   margin-right: 10%;
